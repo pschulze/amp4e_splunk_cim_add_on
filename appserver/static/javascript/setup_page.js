@@ -1,6 +1,6 @@
 "use strict";
 
-var app_name = "amp4e_splunk_cim_add_on";
+var app_name = "TA-cisco-amp4e";
 
 // This is an undocumented Splunk solution for how to include javascript logic
 // from other files.

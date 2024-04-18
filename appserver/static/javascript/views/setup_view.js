@@ -591,7 +591,7 @@ define(
                     <div class="title">
                         <h1>Setup Page</h1>
                         <div class="setup container">
-                            <form>
+                            <form version="1.1">
                                 <div class="form-group">
                                     <label for="amp_host">AMP for Endpoints Console Hostname</label>
                                     <input name="amp_host" type="text" class="form-control" id="amp_host" placeholder="console.amp.cisco.com" />
