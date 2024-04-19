@@ -32,3 +32,6 @@ This project is licensed under the BSD 2-clause "Simplified" License - see the [
 
 ### Acknowledgments
 * Brian from Northern Trust
+* cszekacs
+* johnosn
+* sschimper-splunk
