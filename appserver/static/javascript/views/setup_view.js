@@ -181,7 +181,7 @@ define(
             },
 
             updateAppConf: async function(splunk_js_sdk_service, url) {
-                const app_name = "amp4e_splunk_cim_add_on";
+                const app_name = "TA-cisco-amp4e";
                 const configuration_file_name = "appsetup";
                 const stanza_name = "app_config";
                 const properties_to_update = {
@@ -208,7 +208,7 @@ define(
                 };
 
                 Object.entries(WORKFLOW_ACTIONS).forEach(async ([stanza, url]) => {
-                    var app_name = "amp4e_splunk_cim_add_on";
+                    var app_name = "TA-cisco-amp4e";
                     var configuration_file_name = "workflow_actions";
                     var stanza_name = stanza;
                     
@@ -230,7 +230,7 @@ define(
             },
 
             complete_setup: async function complete_setup(splunk_js_sdk_service) {
-                var app_name = "amp4e_splunk_cim_add_on";
+                var app_name = "TA-cisco-amp4e";
                 var configuration_file_name = "app";
                 var stanza_name = "install";
                 var properties_to_update = {
